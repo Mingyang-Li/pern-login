@@ -46,6 +46,7 @@ const Login = ({ setAuth }) => {
 
   return (
     <Fragment>
+      <h1>Mingyang's PERN Stack Login</h1>
       <h1 className="mt-5 text-center">Login</h1>
       <form onSubmit={onSubmitForm}>
         <input
